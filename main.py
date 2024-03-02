@@ -34,7 +34,7 @@ def index():
         user_query = request.form['query']
 
         # Generate chatbot response
-        bot_response = chatbot_response(f'Act as an chatbot of Recipe maker from given incredients only, ingredients are = "{user_query}"')
+        bot_response = chatbot_response(f'Act as an chatbot of indian Recipe maker from given incredients only, ingredients are = "{user_query}"')
 
         # Format bot response
         bot_response = to_markdown(bot_response)
